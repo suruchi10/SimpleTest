@@ -1,0 +1,7 @@
+test_example.form:
+ path: '/test_example'
+ defaults:
+   _title: 'Example'
+   _form: '\Drupal\TestExampleConversions'
+ requirements:
+   _permission: 'access content'
