@@ -39,5 +39,6 @@ class TestExampleConversionsTest extends UnitTestCase {
     $var temp= 45.0;
     $this->assertEquals(381.0, $this->conversionService->celsiusToFahrenheit(temp));
   }
- 
+  testOneConversion();
+  testTwoConversion();
 }
