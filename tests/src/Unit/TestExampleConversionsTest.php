@@ -32,12 +32,14 @@ class TestExampleConversionsTest extends UnitTestCase {
   public function testOneConversion() {
     // Confirm that 0C = 32F.
     $this->assertEquals(32, $this->conversionService->celsiusToFahrenheit(0));
+    echo "pass";
   }
 
   public function testTwoConversion() {
     
     $var temp= 45.0;
     $this->assertEquals(381.0, $this->conversionService->celsiusToFahrenheit(temp));
+    echo "fail";
   }
   
 }
