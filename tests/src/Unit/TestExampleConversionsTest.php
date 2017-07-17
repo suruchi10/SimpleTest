@@ -23,7 +23,7 @@ class TestExampleConversionsTest extends UnitTestCase {
   public $conversionService;
  
   public function setUp() {
-    $this->conversionService = new \Drupal\test_example\TestExampleConversions();
+    $this->conversionService = new \Drupal\test_example\TestExampleConversions;
   }
  
   /**
@@ -35,7 +35,7 @@ class TestExampleConversionsTest extends UnitTestCase {
   }
 
   public function testTwoConversion() {
-    // Confirm that 0C = 32F.
+    
     $var temp= 45.0;
     $this->assertEquals(381.0, $this->conversionService->celsiusToFahrenheit(temp));
   }
