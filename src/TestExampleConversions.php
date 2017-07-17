@@ -23,8 +23,6 @@ class TestExampleConversions {
    */
   public function celsiusToFahrenheit($temp) {
 
-
-    echo ($temp * (9/5)) + 32);
     return ($temp * (9/5)) + 32);
   }
  
