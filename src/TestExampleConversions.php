@@ -22,7 +22,8 @@ class TestExampleConversions {
    * @return int
    */
   public function celsiusToFahrenheit($temp) {
-    return ($temp * (9/5)) + 32;
+
+    return echo (($temp * (9/5)) + 32);
   }
  
   /**
